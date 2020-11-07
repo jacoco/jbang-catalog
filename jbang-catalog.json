@@ -1,0 +1,11 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "cli": {
+      "script-ref": "org.jacoco:org.jacoco.cli:RELEASE:nodeps"
+    },
+    "agent": {
+      "script-ref": "org.jacoco:org.jacoco.agent:RELEASE:runtime"
+    }
+  }
+}
