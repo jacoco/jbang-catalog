@@ -2,10 +2,12 @@
   "catalogs": {},
   "aliases": {
     "cli": {
-      "script-ref": "org.jacoco:org.jacoco.cli:RELEASE:nodeps"
+      "script-ref": "org.jacoco:org.jacoco.cli:RELEASE:nodeps",
+      "description": "Runs jacoco cli, see https://www.jacoco.org/jacoco/trunk/doc/cli.html for documentation."
     },
     "agent": {
-      "script-ref": "org.jacoco:org.jacoco.agent:RELEASE:runtime"
+      "script-ref": "org.jacoco:org.jacoco.agent:RELEASE:runtime",
+      "description": "jacoco agent, use like `jbang --javaagent <script>`"
     }
   }
 }
